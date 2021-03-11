@@ -5,8 +5,7 @@
 EdgeSOM is a distributed and hierarchical MEC-based data analytics framework. The framework uses the combination of an enhanced Self-organising Map (SOM)
 and a Hierarchical Agglomerative Clustering (HAC) algorithm for distributed data clustering. EdgeSOM is fully distributed, such that MEC servers do not require a synchronisation server to cluster the data initially. EdgeSOM significantly reduces the network traffic of the aggregated IoT raw data to the cloud while achieving highly accurate analysis results.
 
-Our paper describes the motivation, architecture and evaluation of EdgeSOM:
-- [Computer Communications](https://www.sciencedirect.com/science/article/pii/S0140366421000906)
+Our paper describes the motivation, architecture and evaluation of EdgeSOM ([COMCOM'21](https://www.sciencedirect.com/science/article/pii/S0140366421000906))
 
 ## EdgeSOM simulation
 This repository contains a simulation code for EdgeSOM architecture and does not contain a full end-to-end implementation. The code simulates the EdgeSOM architecture and supports multiple layers of clustering. Yet, the code performs a fully distributed clustering using an enhanced self-organising map (SOM) and Hierarchical Agglomerative Clustering (HAC) algorithm, as described in [our paper](https://www.sciencedirect.com/science/article/pii/S0140366421000906).
