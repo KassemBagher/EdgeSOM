@@ -1,6 +1,9 @@
 # EdgeSOM: Distributed Hierarchical Edge-driven IoT Data Analytics Framework
 *A distributed and hierarchical MEC-based data analytics framework*
 
+![](https://github.com/KassemBagher/EdgeSOM/blob/main/distributed_overview.svg)
+
+
 ## What is EdgeSOM?
 EdgeSOM is a distributed and hierarchical MEC-based data analytics framework. The framework uses the combination of an enhanced Self-organising Map (SOM)
 and a Hierarchical Agglomerative Clustering (HAC) algorithm for distributed data clustering. EdgeSOM is fully distributed, such that MEC servers do not require a synchronisation server to cluster the data initially. EdgeSOM significantly reduces the network traffic of the aggregated IoT raw data to the cloud while achieving highly accurate analysis results.
