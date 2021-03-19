@@ -5,7 +5,7 @@
 #ifndef EDGESOM_SOM_H
 #define EDGESOM_SOM_H
 
-#include "SOM.h"
+#include <climits>
 #include "cmath"
 #include "cfloat"
 #include <vector>
