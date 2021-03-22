@@ -13,7 +13,7 @@ Our paper describes the motivation, architecture and evaluation of EdgeSOM ([COM
 ## EdgeSOM simulation
 This repository contains a simulation code for EdgeSOM architecture and does not contain a full end-to-end implementation. The code simulates the EdgeSOM architecture and supports multiple layers of clustering. Yet, the code performs a fully distributed clustering using an enhanced self-organising map (SOM) and Hierarchical Agglomerative Clustering (HAC) algorithm, as described in [our paper](https://www.sciencedirect.com/science/article/pii/S0140366421000906).
 
-## How to run EdgeSOM
+## How to use EdgeSOM
 The quickest and easiest way to use EdgeSOM is to run the sample code, which can be found in the ``main.cpp`` file.
 The main steps involved in the sample code are as follows:
 
@@ -59,6 +59,19 @@ vector<vector<double>> clusters = layersManager.run(data);
 
 When EdgeSOM is executed, the following steps will take place:
 1. The first server layer will receive the dataset file and partition it among the servers. For example, if the number of servers is set to 2 (by invoking ``.setServers(2)``) then the dataset will be partitioned into 2 batches.
-2. If there are any other servers layers, they will be executed in the same order they were added.
-3. After all servers layers are executed, the merging layer will be executed, and the final results will be sent back to the user.
-4. Note that the output of each layer will be sent to the next layer and partitioned in each layer accordingly.
+2. All servers in the ``ServersLayer`` will run sequentially, where each server will cluster the partition that was assigned to it.
+3. Once all servers in the ``ServersLayer`` finish processing, output results will be sent to the next layer.
+4. If there are any other servers layers, the input of this layer will be the output of the previous one. Note that the servers layers will be executed in the same order they were added.
+5. After all servers layers are executed, the output of the last servers layers will be sent to the merging layer. The merging layer will be executed, and the final results will be sent back to the user.
+6. Note that the output of each layer will be sent to the next layer and partitioned in each layer accordingly.
+
+
+## How to run EdgeSOM
+```bash
+cd EdgeSOM
+mkdir build
+cd build
+cmake ..
+make
+./EdgeSom
+```
