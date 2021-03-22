@@ -38,7 +38,7 @@ double HelperFunctions::distance(double &x1, double &y1, double &x2, double &y2)
 }
 
 
-double HelperFunctions::printPoints(std::vector<std::vector<double>> &data, std::string title) {
+void HelperFunctions::printPoints(std::vector<std::vector<double>> &data, std::string title) {
     std::cout << "===== "<< title <<" BEGIN ====" << std::endl;
     for (int i = 0; i < data.size(); ++i) {
         std::cout << std::setprecision(15) << data[i][0] << "," << data[i][1] << std::endl;

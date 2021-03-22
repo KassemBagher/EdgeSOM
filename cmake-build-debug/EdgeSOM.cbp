@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EdgeSOM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kassem/Documents/EdgeSOM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kassem/Documents/EdgeSOM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kassem/Documents/EdgeSOM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EdgeSOM">
+				<Option output="/Users/kassem/Documents/EdgeSOM/cmake-build-debug/EdgeSOM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kassem/Documents/EdgeSOM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kassem/Documents/EdgeSOM/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 EdgeSOM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EdgeSOM/fast">
+				<Option output="/Users/kassem/Documents/EdgeSOM/cmake-build-debug/EdgeSOM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kassem/Documents/EdgeSOM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/kassem/Documents/EdgeSOM/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 EdgeSOM/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kassem/Documents/EdgeSOM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/ClosestPair.cpp">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/ClosestPair.h">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/DataManager.cpp">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/DataManager.h">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/HelperFunctions.cpp">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/HelperFunctions.h">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/LayersManager.cpp">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/LayersManager.h">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/MergingLayer.cpp">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/MergingLayer.h">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/SOM.cpp">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/SOM.h">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/ServersLayer.cpp">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/ServersLayer.h">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/SquareMesh.cpp">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/SquareMesh.h">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/WeightFunction.h">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/src/main.cpp">
+			<Option target="EdgeSOM"/>
+		</Unit>
+		<Unit filename="/Users/kassem/Documents/EdgeSOM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

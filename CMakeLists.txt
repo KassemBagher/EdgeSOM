@@ -6,21 +6,21 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(EdgeSOM
-        ClosestPair.cpp
-        ClosestPair.h
-        DataManager.cpp
-        DataManager.h
-        HelperFunctions.cpp
-        HelperFunctions.h
-        LayersManager.cpp
-        LayersManager.h
-        main.cpp
-        MergingLayer.cpp
-        MergingLayer.h
-        ServersLayer.cpp
-        ServersLayer.h
-        SOM.cpp
-        SOM.h
-        SquareMesh.cpp
-        SquareMesh.h
-        WeightFunction.h)
+        src/ClosestPair.cpp
+        src/ClosestPair.h
+        src/DataManager.cpp
+        src/DataManager.h
+        src/HelperFunctions.cpp
+        src/HelperFunctions.h
+        src/LayersManager.cpp
+        src/LayersManager.h
+        src/main.cpp
+        src/MergingLayer.cpp
+        src/MergingLayer.h
+        src/ServersLayer.cpp
+        src/ServersLayer.h
+        src/SOM.cpp
+        src/SOM.h
+        src/SquareMesh.cpp
+        src/SquareMesh.h
+        src/WeightFunction.h)

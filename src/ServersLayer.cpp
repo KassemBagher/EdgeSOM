@@ -15,7 +15,7 @@ std::vector<std::vector<double>> ServersLayer::clusterData(std::vector<std::vect
                 "\nPOSSIBLE INACCURATE RESULTS!\nMax Number of suggested servers based on the input data size is (%d).\n"
                 "The current number of servers is set to (%d) and WILL NOT be changed.\n"
                 "Data size is (%d)\n\n",
-                maxServers, numOfServers, data.size());
+                maxServers, numOfServers, (int)data.size());
     }
     DataManager dm;
     vector<vector<vector<double>>> partitions;

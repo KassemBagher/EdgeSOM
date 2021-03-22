@@ -23,7 +23,7 @@ public:
 
     static double distance(double &x1, double &y1, double &x2, double &y2);
 
-    static double printPoints(std::vector<std::vector<double>> &data, std::string title);
+    static void printPoints(std::vector<std::vector<double>> &data, std::string title);
 
 };
 
